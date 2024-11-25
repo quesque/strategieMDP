@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header/logo Title */
+header {
+    padding: 60px;
+    text-align: center;
+    background: #000000;
+    color: white;
+}
+
+header > #img1 {
+    float: left;
+    width: 60px;
+}
+
+header > h1 {
+    float: center;
+}
+
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 20%;
+    background-color: #DADADA;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    flex-direction: inline;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 0px;
+}
+
+.form {
+    background-color: #ABABAB;
+    padding: 5%;
+}
+
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic
+}
+div.error { display: none; }
+input {	border: 1px solid black; }
+input.checkbox { border: none }
+input:focus { border: 1px dotted black; }
+input.error { border: 1px dotted red; }
+form.cmxform .gray * { color: gray; }
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#img2 {
+    width: 60px;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+/* Footer */
+footer {
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+/* Buttons */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+  
+  .button1:hover {
+    background-color: #555555;
+    color: white;
+}
